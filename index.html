@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lambda</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="min-vh-100" id="home">
+      <!-- Boostrap Navigation -->
+      <div class="container-fluid fixed-top">
+        <nav class="container navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand">
+            <img class="w-75" src="assets/images/Logo.png" alt="Brand Logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            data-target="#my-nav"
+            data-toggle="collapse"
+            aria-controls="my-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link font-weight-bold mx-3" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold mx-3" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold mx-3" href="#"
+                  >Igredients</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold mx-3" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold mx-3" href="#">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold mx-3" href="#"
+                  >Reservations</a
+                >
+              </li>
+              <li class="nav-item">
+                <div
+                  class="btn-group social_group"
+                  role="group"
+                  aria-label="Social Media"
+                >
+                  <a class="nav-link text-warning" href="#">
+                    <svg
+                      width="20"
+                      fill="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a class="nav-link text-warning" href="#">
+                    <svg width="20" viewBox="0 0 512 512">
+                      <path
+                        fill="currentColor"
+                        d="M490 114c-14-25-29-29-59-31a3687 3687 0 00-350 0c-30 2-45 6-59 31C7 139 0 181 0 256s7 117 22 142c14 25 29 29 59 31a4167 4167 0 00350 0c30-2 45-6 59-31 15-24 22-67 22-142s-7-117-22-142zM192 352V160l160 96-160 96z"
+                      />
+                    </svg>
+                  </a>
+                  <a class="nav-link text-warning" href="#">
+                    <svg
+                      width="20"
+                      fill="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Hero Section -->
+      <section id="hero">
+        <div
+          class="container min-vh-100 d-flex flex-column align-items-center justify-content-center"
+        >
+          <h1 class="display-2 w-75 text-center text-white">
+            the right ingredients for the right food
+          </h1>
+          <div class="divider w-25 my-3">
+            <img src="assets/images/divider1.svg" alt="divider" />
+          </div>
+
+          <div
+            class="btn-group text-white my-5"
+            role="group"
+            aria-label="Button group"
+          >
+            <a href="#" class="btn py-2 py-md-3 px-md-5 bg-dark-400 border-dark"
+              >BOOK A TABLE</a
+            ><a
+              href="#"
+              class="btn py-2 py-md-3 px-md-5 bg-light-400 border-light"
+              >SEE THE MENU</a
+            >
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- About Section -->
+      <section id="about">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-5 text-center">
+              <h2 class="title">Just the right food</h2>
+              <div class="divider w-50 my-3 m-auto">
+                <img src="assets/images/divider2Yellow.svg" alt="divider" />
+              </div>
+              <p class="my-5">
+                If you’ve been to one of our restaurants, you’ve seen – and
+                tasted – what keeps our customers coming back for more. Perfect
+                materials and freshly baked food, delicious Lambda cakes,
+                muffins, and gourmet coffees make us hard to resist! Stop in
+                today and check us out!
+              </p>
+              <img src="assets/images/cook.png" alt="cook" />
+            </div>
+            <div
+              class="col-md-6 col-lg-5 d-flex justify-content-center align-items-center"
+            >
+              <img src="assets/images/dish.png" alt="dish" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ingredients Section -->
+      <section id="ingredients">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col offset-md-4 offset-lg-6 py-md-5 px-md-3 bg-dark-400"
+            >
+              <div class="p-3 p-md-5 text-center">
+                <h2 class="title text-white">Fine ingredients</h2>
+                <div class="divider w-50 my-3 m-auto">
+                  <img src="assets/images/divider2White.svg" alt="divider" />
+                </div>
+                <p class="my-5">
+                  If you’ve been to one of our restaurants, you’ve seen – and
+                  tasted – what keeps our customers coming back for more.
+                  Perfect materials and freshly baked food, delicious Lambda
+                  cakes, muffins, and gourmet coffees make us hard to resist!
+                  Stop in today and check us out!
+                </p>
+                <div class="ingredients-item">
+                  <img
+                    class="rounded-circle"
+                    width="100"
+                    height="100"
+                    src="assets/images/ingredients/ingredients1.jpg"
+                    alt="ingredients"
+                  />
+                  <img
+                    class="rounded-circle"
+                    width="100"
+                    height="100"
+                    src="assets/images/ingredients/ingredients2.jpg"
+                    alt="ingredients"
+                  />
+                  <img
+                    class="rounded-circle"
+                    width="100"
+                    height="100"
+                    src="assets/images/ingredients/ingredients3.jpg"
+                    alt="ingredients"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Menu Section -->
+      <section id="menu">
+        <div class="container">
+          <div class="row justify-content-around">
+            <div class="col-md-5">
+              <div class="menu_group mb-5">
+                <h2 class="title text-center">Appetisers</h2>
+                <div class="divider w-50 my-3 m-auto">
+                  <img src="assets/images/divider2Yellow.svg" alt="divider" />
+                </div>
+                <div class="items mb-4">
+                  <div class="menu_item d-flex justify-content-between">
+                    <h5>Tzatsiki</h5>
+                    <p class="h5 mb-2">$3.99</p>
+                  </div>
+                  <p class="menu_desc mt-2">
+                    Refreshing traditional cucumber and garlic yoghurt dip.
+                  </p>
+                </div>
+                <div class="items mb-4">
+                  <div class="menu_item d-flex justify-content-between">
+                    <h5>Aubergine_Salad</h5>
+                    <p class="h5 mb-2">$5.50</p>
+                  </div>
+                  <p class="menu_desc mt-2">
+                    Pureed eggplant, garlic, green pepper and tomato dip.
+                  </p>
+                </div>
+                <div class="items mb-4">
+                  <div class="menu_item d-flex justify-content-between">
+                    <h5>Aubergine_Salad</h5>
+                    <p class="h5 mb-2">$5.25</p>
+                  </div>
+                  <p class="menu_desc mt-2">
+                    Refreshing traditional cucumber and garlic yoghurt dip.
+                  </p>
+                </div>
+              </div>
+              <div class="menu_group mb-5">
+                <h2 class="title text-center">Salads</h2>
+                <div class="divider w-50 my-3 m-auto">
+                  <img src="assets/images/divider2Yellow.svg" alt="divider" />
+                </div>
+                <div class="items mb-4">
+                  <div class="menu_item d-flex justify-content-between">
+                    <h5>Olive_Special</h5>
+                    <p class="h5 mb-2">$5.99</p>
+                  </div>
+                  <p class="menu_desc mt-2">
+                    Refreshing traditional cucumber and garlic yoghurt dip.
+                  </p>
+                </div>
+                <div class="items mb-4 special">
+                  <div class="menu_item d-flex justify-content-between">
+                    <h5>Greek_Salad</h5>
+                    <p class="h5 mb-2">$5.50</p>
+                  </div>
+                  <p class="menu_desc mt-2">
+                    Refreshing traditional cucumber and garlic yoghurt dip.
+                  </p>
+                </div>
+                <div class="items mb-4">
+                  <div class="menu_item d-flex justify-content-between">
+                    <h5>Gusto_Salad</h5>
+                    <p class="h5 mb-2">$5.25</p>
+                  </div>
+                  <p class="menu_desc mt-2">
+                    Refreshing traditional cucumber and garlic yoghurt dip.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-5">
+              <div class="menu_group mb-5">
+                <h2 class="title text-center">Starters</h2>
+                <div class="divider w-50 my-3 m-auto">
+                  <img src="assets/images/divider2Yellow.svg" alt="divider" />
+                </div>
+                <div class="items mb-4">
+                  <div class="menu_item d-flex justify-content-between">
+                    <h5>Haloumi</h5>
+                    <p class="h5 mb-2">$3.99</p>
+                  </div>
+                  <p class="menu_desc mt-2">
+                    Refreshing traditional cucumber and garlic yoghurt dip.
+                  </p>
+                </div>
+                <div class="items mb-4">
+                  <div class="menu_item d-flex justify-content-between">
+                    <h5>Spinach_Pie</h5>
+                    <p class="h5 mb-2">$5.99</p>
+                  </div>
+                  <p class="menu_desc mt-2">
+                    Refreshing traditional cucumber and garlic yoghurt dip.
+                  </p>
+                </div>
+              </div>
+              <div class="menu_group mb-5">
+                <h2 class="title text-center">Main Dishes</h2>
+                <div class="divider w-50 my-3 m-auto">
+                  <img src="assets/images/divider2Yellow.svg" alt="divider" />
+                </div>
+                <div class="items mb-4">
+                  <div class="menu_item d-flex justify-content-between">
+                    <h5>Cornish_Mackerel</h5>
+                    <p class="h5 mb-2">$5.25</p>
+                  </div>
+                  <p class="menu_desc mt-2">
+                    Refreshing traditional cucumber and garlic yoghurt dip.
+                  </p>
+                </div>
+                <div class="items mb-4 special">
+                  <div class="menu_item d-flex justify-content-between">
+                    <h5>Roast_Lamb</h5>
+                    <p class="h5 mb-2">$3.99</p>
+                  </div>
+                  <p class="menu_desc mt-2">
+                    Refreshing traditional cucumber and garlic yoghurt dip.
+                  </p>
+                </div>
+                <div class="items mb-4">
+                  <div class="menu_item d-flex justify-content-between">
+                    <h5>Fried_Chicken</h5>
+                    <p class="h5 mb-2">$3.95</p>
+                  </div>
+                  <p class="menu_desc mt-2">
+                    Refreshing traditional cucumber and garlic yoghurt dip.
+                  </p>
+                </div>
+                <div class="items mb-4">
+                  <div class="menu_item d-flex justify-content-between">
+                    <h5>Pastitsio</h5>
+                    <p class="h5 mb-2">$4.99</p>
+                  </div>
+                  <p class="menu_desc mt-2">
+                    Refreshing traditional cucumber and garlic yoghurt dip.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Guest Review Section -->
+      <section id="reviews">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 m-auto bg-dark-400">
+              <div class="p-3 p-md-5 text-center">
+                <h2 class="title text-white">Guest Reviews</h2>
+                <div class="divider w-50 my-3 m-auto">
+                  <img src="assets/images/divider2White.svg" alt="divider" />
+                </div>
+                <figure>
+                  <blockquote class="blockquote">
+                    <p class="my-2 h4 lh-base">
+                      If you’ve been to one of our restaurants, you’ve seen –
+                      and tasted – what keeps our customers coming back for
+                      more. Perfect materials and freshly baked food, delicious
+                      Lambda cakes, muffins, and gourmet coffees make us hard to
+                      resist! Stop in today and check us out!
+                    </p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer text-white mt-3">
+                    food inc, New York
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Reservations Section -->
+      <section id="reservation">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-xl-6 d-flex justify-content-center align-items-center"
+            >
+              <div class="image_group d-flex">
+                <img src="assets/images/reservations/image1.jpg" alt="" />
+                <img
+                  class="ml-lg-4"
+                  src="assets/images/reservations/image2.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-xl-6 text-center px-5 mt-5 mt-xl-0">
+              <h2 class="title">Just the right food</h2>
+              <div class="divider w-50 my-3 m-auto">
+                <img src="assets/images/divider2Yellow.svg" alt="divider" />
+              </div>
+              <p class="mt-5">
+                If you’ve been to one of our restaurants, you’ve seen – and
+                tasted – what keeps our customers coming back for more. Perfect
+                materials and freshly baked food.
+              </p>
+              <p>
+                Delicious Lambda cakes, muffins, and gourmet coffees make us
+                hard to resist! Stop in today and check us out! Perfect
+                materials and freshly baked food.
+              </p>
+
+              <form
+                class="text-left row justify-content-between"
+                id="booking_form"
+              >
+                <div class="mb-3 col-md-6">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="your name*"
+                  />
+                </div>
+                <div class="mb-3 col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="your email*"
+                  />
+                </div>
+                <div class="mb-3 col-md-6">
+                  <label for="date" class="form-label">Date</label>
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="date"
+                    name="date"
+                  />
+                </div>
+                <div class="mb-3 col-md-6">
+                  <label for="select" class="form-label">Party Number</label>
+                  <select id="select" class="form-select" name="party">
+                    <option value="">Option 1</option>
+                    <option value="">Option 2</option>
+                    <option value="">Option 3</option>
+                    <option value="">Option 4</option>
+                    <option value="">Option 5</option>
+                  </select>
+                </div>
+                <div class="text-center mt-3">
+                  <button type="submit" class="btn px-5 py-2 rounded-0">
+                    Book Now
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer Section -->
+    <footer class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <h5 class="text-white">About Us</h5>
+            <div class="divider w-50 my-3 m-auto">
+              <img src="assets/images/divider2White.svg" alt="divider" />
+            </div>
+            <p class="text-base text-white">
+              Lambda's new and expanded Chelsea location represents a truly
+              authentic <strong>Greek</strong> patisserie, featuring breakfasts
+              of fresh croissants and steaming bowls of café. <br />
+              Lamda the best restaurant in town
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <h5 class="text-white">Opening Hours</h5>
+            <div class="divider w-50 my-3 m-auto">
+              <img src="assets/images/divider2White.svg" alt="divider" />
+            </div>
+            <p class="text-base text-white mb-0">
+              <strong>Mon-Thu:</strong>
+              <time datetime="PT13H00M">7:00am-8:00pm</time>.
+            </p>
+            <p class="text-base text-white">
+              <strong>Fri-Sun:</strong>
+              <time datetime="PT15H00M">7:00am-10:00pm</time>.
+            </p>
+            <div class="d-flex justify-content-center">
+              <svg width="50" class="text-white" fill="currentColor">
+                <path d="M12 25h-2v2h2v-1-1zM18 28a27 27 0 00-1 1h-1v1h2v-2z" />
+                <path
+                  d="M55 10H1l-1 1v34l1 2h54l1-2V11l-1-1zM13 28l-3 1H9v2H7l1-7 1-1h4l1 1 1 1-2 3zm8-1l-1 4h-5l-1-1v-1l1-1 2-1h2l-1-1h-1-1v1l-1-1 1-1h4l1 1v1zm2 7h-2l1-2v-1l-1-5 1-1h1v1l1 3a1045 1045 0 014-4v1l-5 8zm12-6l-4 1-1 2h-2l2-7v-1h4l1 1h1v1l-1 3zm7-1l-1 4h-3-1-1l-1-1 1-1 1-1 1-1h2v-1h-2l-1 1v-1-1h4l1 2zm4-3l-2 7h-2l2-7v-1h1l1 1zm2-1h-1v1h1-1v-2 1h1zm2 0v1-1h-1v1-1h-1v1-1h2z"
+                />
+                <path
+                  d="M40 28a18 18 0 00-2 1h-1v1h2l1-1v-1zM33 25h-1-1v2h2l1-1-1-1z"
+                />
+              </svg>
+              <svg width="50" class="text-white mt-2" fill="currentColor">
+                <path fill="none" d="M-1-1h52v152H-1z" />
+                <g>
+                  <path
+                    stroke="null"
+                    d="M50 10v4l-1 1H1l-1-1v-4l1-1h48l1 1zm0-3V4c0-2-2-4-4-4H4C2 0 0 2 0 4v3h50zM40 23l-1 1v3l1 1a3 3 0 100-5zM1 16h48l1 1v16c0 2-2 4-4 4H4c-2 0-4-2-4-4V17l1-1zm54 19l-1-1H7a1 1 0 000 2h7l1-1h40zm0-5l-1-1H7a1 1 0 000 2h7l1-1h40zm29 3c0-4-4-6-7-4a4 4 0 100 7c3 2 7 0 7-3z"
+                  />
+                </g>
+              </svg>
+
+              <svg width="50" class="text-white" fill="currentColor">
+                <path
+                  d="M5 7c-3 0-5 2-5 5v26c0 3 2 5 5 5h40c3 0 5-2 5-5V12c0-3-2-5-5-5zm25 12l2 1v2h-2l-2 1c0 1 4 1 4 4 0 2-3 4-5 4l-3-1v-2l3 1 2-1c0-2-4-2-4-5 0-2 2-4 5-4zm-14 1h4l-5 11h-3l-2-9 4 4v2zm5 0h3l-2 11h-3zm16 0h3l2 11h-2l-1-2h-3l-1 2h-3zM6 20h5l1 1 1 5c-1-5-7-6-7-6zm32 3l-2 4h3z"
+                />
+              </svg>
+              <svg width="50" class="text-white" fill="currentColor">
+                <path
+                  d="M5 7c-3 0-5 2-5 5v26c0 3 2 5 5 5h40c3 0 5-2 5-5V12c0-3-2-5-5-5zm21 11l2 1-2 2a1 1 0 010-3zm-9 1v3h1v1h-1v4l1 1v2h-1l-2-1-1-2v-4h-1l1-1 1-2zm-7 2l3 1-1 2-2-1v1l1 1 2 2-1 2-2 1-3-1v-2l3 1 1-1-1-1c-2 0-3-1-3-2l1-2 2-1zm23 0l2 1 1 3-1 4-3 1h-1v2l-2 1V22h2l2-1zm7 0l3 1 1 3v1h-5l1 1 1 1 2-1v2l-2 1-3-1-1-3c0-3 1-5 3-5zm-17 0h1v3h-1-1v6h-3v-8h3l1-1zm2 1h2v8h-2zm15 1l-1 2h2l-1-2zm-8 0l-1 1v4h1l1-1v-2l-1-2z"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <h5 class="text-white">Our Location</h5>
+            <div class="divider w-50 my-3 m-auto">
+              <img src="assets/images/divider2White.svg" alt="divider" />
+            </div>
+            <address class="text-base text-white">
+              19th Paradise Street Sitia <br />
+              128 Meserole Avenue
+            </address>
+            <div
+              class="btn-group social_group"
+              role="group"
+              aria-label="Social Media"
+            >
+              <a class="nav-link text-white" href="#">
+                <svg
+                  width="20"
+                  fill="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                  ></path>
+                </svg>
+              </a>
+              <a class="nav-link text-white" href="#">
+                <svg width="20" viewBox="0 0 512 512">
+                  <path
+                    fill="currentColor"
+                    d="M490 114c-14-25-29-29-59-31a3687 3687 0 00-350 0c-30 2-45 6-59 31C7 139 0 181 0 256s7 117 22 142c14 25 29 29 59 31a4167 4167 0 00350 0c30-2 45-6 59-31 15-24 22-67 22-142s-7-117-22-142zM192 352V160l160 96-160 96z"
+                  />
+                </svg>
+              </a>
+              <a class="nav-link text-white" href="#">
+                <svg
+                  width="20"
+                  fill="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

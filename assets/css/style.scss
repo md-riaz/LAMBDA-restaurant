@@ -1,0 +1,197 @@
+/***** Fonts *****/
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Gentium Book Basic";
+  src: url(../fonts/GentiumBookBasic-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "YesevaOne";
+  src: url(../fonts/YesevaOne-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Regular.ttf) format("truetype");
+}
+
+/***** Global Settings *****/
+:root {
+  --clr-yellow: #cc9900;
+  --clr-yellow-light: rgba(204, 153, 0, 0.2);
+  --clr-white: #fff;
+  --clr-dark: rgb(25, 25, 25);
+  --clr-light-400: rgba(255, 255, 255, 0.3);
+  --clr-dark-400: rgba(25, 25, 25, 0.8);
+
+  --font-Open-sans: "Open Sans";
+  --font-Gentium: "Gentium Book Basic";
+  --font-YesevaOne: "YesevaOne";
+  --font-Lato: "Lato";
+  --text-heading: 2.25rem;
+  --text-title: 1.25rem;
+  --text-base: 1rem;
+  --text-xs: 0.8rem;
+}
+body {
+  font-family: var(--font-Open-sans);
+  transition: all 0.5s ease;
+}
+h1,
+h2,
+h5 {
+  font-family: var(--font-YesevaOne);
+}
+h2.title {
+  font-size: var(--text-heading);
+  color: var(--clr-yellow);
+}
+h5 {
+  font-size: var(--text-title);
+}
+p {
+  font-family: var(--font-Lato);
+  font-size: var(--text-base);
+}
+.text-base {
+  font-family: var(--font-Open-sans);
+  font-size: var(--text-base);
+}
+a {
+  color: inherit;
+}
+section,
+footer {
+  padding: 4em 1em;
+}
+img {
+  max-width: 100%;
+}
+.bg-dark {
+  background-color: var(--clr-dark) !important;
+}
+.bg-dark-400 {
+  color: var(--clr-white);
+  background-color: var(--clr-dark-400);
+  transition: background 0.5s ease;
+  &:hover {
+    background-color: var(--clr-light-400);
+  }
+}
+.bg-light-400 {
+  color: var(--clr-white);
+  background-color: var(--clr-light-400);
+}
+
+/*****  Header & Hero Section  *****/
+header {
+  background: url("../images/header_bg.jpg") no-repeat;
+  background-size: cover;
+  & .container-fluid {
+    background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
+  }
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-family: var(--font-Gentium);
+  font-size: var(--text-title);
+  color: white;
+}
+
+/*****  About Section  *****/
+#about {
+  background: url("../images/patterns/pattern1.jpg") no-repeat;
+  background-size: cover;
+}
+/*****  ingredients Section  *****/
+#ingredients {
+  background: url("../images/ingredients_bg.jpg") no-repeat;
+  background-size: cover;
+
+  .ingredients-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: auto 0.8em;
+  }
+}
+/*****  Menu Section  *****/
+#menu {
+  background: url("../images/patterns/pattern2.jpg") no-repeat;
+  background-size: cover;
+  .menu_item {
+    font-family: var(--font-YesevaOne);
+    border-bottom: 1px solid var(--clr-yellow-light);
+    p {
+      font-family: var(--font-YesevaOne);
+    }
+    & > * {
+      color: var(--clr-yellow);
+    }
+  }
+  .items.special {
+    position: relative;
+    outline: thin solid var(--clr-yellow);
+    outline-offset: 5px;
+    &::before {
+      position: absolute;
+      content: "Special";
+      background-color: var(--clr-yellow);
+      font-family: var(--font-Lato);
+      font-size: var(--text-xs);
+      color: var(--clr-white);
+      padding: 2px 8px;
+      top: -28px;
+      right: -6px;
+    }
+  }
+}
+/*****  Guest Review Section  *****/
+#reviews {
+  background: url("../images/reviews_bg.jpg") center no-repeat;
+  background-size: cover;
+  .blockquote p {
+    font-family: var(--font-Gentium);
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "“";
+      top: -25px;
+      left: -20px;
+      font-size: 4rem;
+      color: darkgray;
+    }
+  }
+}
+/*****  Reservations Section  *****/
+#reservation {
+  background: url("../images/patterns/pattern1.jpg") center no-repeat;
+  background-size: cover;
+}
+#booking_form {
+  label {
+    font-weight: bold;
+    color: var(--clr-yellow);
+  }
+  & input,
+  select {
+    min-width: 200px;
+    &::placeholder {
+      font-style: italic;
+    }
+    &:focus {
+      border-color: var(--clr-yellow);
+      box-shadow: 0 0 0 0.2rem var(--clr-yellow-light);
+    }
+  }
+  button[type="submit"] {
+    background-color: var(--clr-yellow);
+    border: 1px solid transparent;
+    color: var(--clr-white);
+    &:hover {
+      background-color: var(--clr-light-400);
+      border-color: var(--clr-yellow);
+      color: var(--clr-yellow);
+    }
+  }
+}
