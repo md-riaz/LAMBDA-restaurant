@@ -56,25 +56,29 @@
           </button>
           <div id="my-nav" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link font-weight-bold mx-3" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link font-weight-bold mx-3" href="#">About</a>
+                <a class="nav-link font-weight-bold mx-3" href="#about"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link font-weight-bold mx-3" href="#"
+                <a class="nav-link font-weight-bold mx-3" href="#ingredients"
                   >Igredients</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link font-weight-bold mx-3" href="#">Menu</a>
+                <a class="nav-link font-weight-bold mx-3" href="#menu">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link font-weight-bold mx-3" href="#">Reviews</a>
+                <a class="nav-link font-weight-bold mx-3" href="#reviews"
+                  >Reviews</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link font-weight-bold mx-3" href="#"
+                <a class="nav-link font-weight-bold mx-3" href="#reservation"
                   >Reservations</a
                 >
               </li>
@@ -144,10 +148,12 @@
             role="group"
             aria-label="Button group"
           >
-            <a href="#" class="btn py-2 py-md-3 px-md-5 bg-dark-400 border-dark"
+            <a
+              href="#reservation"
+              class="btn py-2 py-md-3 px-md-5 bg-dark-400 border-dark"
               >BOOK A TABLE</a
             ><a
-              href="#"
+              href="#menu"
               class="btn py-2 py-md-3 px-md-5 bg-light-400 border-light"
               >SEE THE MENU</a
             >
@@ -380,25 +386,65 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 m-auto bg-dark-400">
-              <div class="p-3 p-md-5 text-center">
-                <h2 class="title text-white">Guest Reviews</h2>
-                <div class="divider w-50 my-3 m-auto">
-                  <img src="assets/images/divider2White.svg" alt="divider" />
+              <div
+                id="carouselExampleSlidesOnly"
+                class="carousel slide"
+                data-ride="carousel"
+                data-interval="3000"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="p-3 p-md-5 text-center">
+                      <h2 class="title text-white">Guest Reviews</h2>
+                      <div class="divider w-50 my-3 m-auto">
+                        <img
+                          src="assets/images/divider2White.svg"
+                          alt="divider"
+                        />
+                      </div>
+                      <figure>
+                        <blockquote class="blockquote">
+                          <p class="my-2 h4 lh-base">
+                            If you’ve been to one of our restaurants, you’ve
+                            seen – and tasted – what keeps our customers coming
+                            back for more. Perfect materials and freshly baked
+                            food, delicious Lambda cakes, muffins, and gourmet
+                            coffees make us hard to resist! Stop in today and
+                            check us out!
+                          </p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer text-white mt-3">
+                          food inc, New York
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="p-3 p-md-5 text-center">
+                      <h2 class="title text-white">Guest Reviews</h2>
+                      <div class="divider w-50 my-3 m-auto">
+                        <img
+                          src="assets/images/divider2White.svg"
+                          alt="divider"
+                        />
+                      </div>
+                      <figure>
+                        <blockquote class="blockquote">
+                          <p class="my-2 h4 lh-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Iusto deleniti voluptatem voluptas doloremque
+                            ea beatae ratione autem maxime omnis architecto eum
+                            sapiente nostrum unde quia, perspiciatis aspernatur
+                            repellat totam optio.
+                          </p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer text-white mt-3">
+                          Lorem ipsum
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
                 </div>
-                <figure>
-                  <blockquote class="blockquote">
-                    <p class="my-2 h4 lh-base">
-                      If you’ve been to one of our restaurants, you’ve seen –
-                      and tasted – what keeps our customers coming back for
-                      more. Perfect materials and freshly baked food, delicious
-                      Lambda cakes, muffins, and gourmet coffees make us hard to
-                      resist! Stop in today and check us out!
-                    </p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer text-white mt-3">
-                    food inc, New York
-                  </figcaption>
-                </figure>
               </div>
             </div>
           </div>

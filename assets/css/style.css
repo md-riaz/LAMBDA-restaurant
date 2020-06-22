@@ -33,7 +33,11 @@
   --text-base: 1rem;
   --text-xs: 0.8rem; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
+  position: relative;
   font-family: var(--font-Open-sans);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
